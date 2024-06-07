@@ -1,0 +1,25 @@
+.banner {
+    position: relative;
+    background: url('https://img.freepik.com/free-photo/beautiful-asian-woman-posing-with-facial-cream_23-2149369993.jpg?t=st=1717654640~exp=1717658240~hmac=600a2de2aad26245b569a809c92c89f9cb3902344e4fee92abf43c2d02b5d348&w=996') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .banner-content {
+    position: relative;
+   z-index:2;
+}

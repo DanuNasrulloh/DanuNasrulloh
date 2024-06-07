@@ -1,0 +1,27 @@
+footer {
+    background-color: #A9A9A9;
+    padding: 0px;
+    text-align: center;
+}
+.container-atas{
+    position: relative;
+    background: url('https://img.freepik.com/free-photo/high-angle-view-cosmetic-products-white-surface_23-2147899498.jpg?t=st=1717657930~exp=1717661530~hmac=0e2c0ad289a8eb823f13a9ef18831bea5ea37c2f06e01d534aeb00f3c7a0b355&w=996') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cointainer-sejarah{
+    position: relative;
+    background: url('https://img.freepik.com/free-vector/white-podium-display-background-design_1017-32933.jpg?t=st=1717658531~exp=1717662131~hmac=915e8b412ce7683b91f2021c1cb6e1e50dc03baaac110fa7013533c19328051c&w=996') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
